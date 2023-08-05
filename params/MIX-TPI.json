@@ -1,0 +1,13 @@
+{
+    "peptide_padding_length": 20,
+    "tcr_padding_length": 33,
+    "dropout": 0.4,
+    "batch_size": 128,
+    "lr": 1e-4,
+    "epoch": 100,
+    "embedding_dim": 128,
+    "hidden_channel": 128,
+    "n_head": 8,
+    "gating": 1,
+    "k": 0.1
+}
