@@ -1,0 +1,3 @@
+1. 写requirements.txt而不是只在readme里提，很不方便！！
+2. 漏了两个文件？？operater.py和amino_acid_properties.py未上传！！
+3. main.py的逻辑可以再优化：在十折for循环开始时加入if判断，若检查到该折对应的ckpt中model.pt已经存在（该折训练完成）则触发continue跳过该折以实现断点续训！！
